@@ -1,0 +1,39 @@
+html {
+  overflow-y: hidden;
+}
+
+.header {
+  flex-wrap: wrap;
+  display: flex;
+  height: 0vh;
+  width: 100vw;
+  justify-content: center;
+  position: sticky;
+  top: 9;
+  z-index: 1;
+}
+
+.header-button {
+  align-items: stretch;
+  background: none;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto";
+  margin-right: 5%;
+}
+
+.loginImage {
+  padding: "0 0 0 5%";
+  display: "flex";
+  flex-wrap: "wrap";
+  color: white;
+  justify-content: "right";
+}
+
+.userButton {
+  margin-left: 10%;
+}

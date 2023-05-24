@@ -1,0 +1,39 @@
+.formLoginText {
+  display: block;
+  height: 20%;
+  margin-top: 5%;
+  margin-left: 10%;
+  /* align-content: center; */
+  justify-content: center;
+  font-size: 30px;
+}
+
+.formErrorText {
+  display: flex;
+  padding: 0;
+  height: 10px;
+  align-content: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: red;
+}
+
+.formLogin {
+  height: 60vh;
+  width: 25vw;
+  display: block;
+  border-color: white;
+}
+
+.loginToolbar {
+  width: 100%;
+  display: block;
+  margin: 20% 0 0 4%;
+  align-content: center;
+}
+
+.form_field {
+  position: relative;
+  width: 50%;
+}

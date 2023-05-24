@@ -1,0 +1,48 @@
+{
+    "books" : {
+        "url" : "http://localhost:8000/milluki/books",
+        "columns" : [
+            { "id": "title", "label": "Title", "minWidth": "200" },
+            { "id": "author", "label": "Author", "minWidth": "200" },
+            { "id": "genre", "label": "Genre", "minWidth": "200" },
+            { "id": "pageNumber", "label": "Page Number", "minWidth": "200" },
+            { "id": "publisher", "label": "Publisher", "minWidth": "200" },
+            { "id": "volume", "label": "Volume", "minWidth": "200" },
+            { "id": "year", "label": "Year", "minWidth": "200" }
+        ],
+        "type": "book"
+    },
+    "publicCollections": {
+        "url" : "http://localhost:8000/milluki/collections/public",
+        "columns": [
+            { "id": "_id", "label": "ID", "minWidth": "200" },
+            { "id": "name", "label": "Name", "minWidth": "200" },
+            { "id": "owner", "label": "Owner", "minWidth": "200" },
+            { "id": "book", "label": "Books", "minWidth": "200" }
+        ],
+        "type": "collection"
+    },
+    "collections": {
+        "url" : "http://localhost:8000/milluki/collections/public",
+        "columns": [
+            { "id": "title", "label": "Title", "minWidth": "200" },
+            { "id": "author", "label": "Author", "minWidth": "200" },
+            { "id": "genre", "label": "Genre", "minWidth": "200" },
+            { "id": "pageNumber", "label": "Page Number", "minWidth": "200" },
+            { "id": "publisher", "label": "Publisher", "minWidth": "200" },
+            { "id": "volume", "label": "Volume", "minWidth": "200" },
+            { "id": "year", "label": "Year", "minWidth": "200" }
+        ],
+        "type": "collection"
+    },
+    "mycollections": {
+        "url" : "http://localhost:8000/milluki/collections",
+        "columns": [
+            { "id": "_id", "label": "ID", "minWidth": "200" },
+            { "id": "name", "label": "Name", "minWidth": "200" },
+            { "id": "book", "label": "Books", "minWidth": "200" },
+            { "id": "isPublic", "label": "Public", "minWidth": "200" }
+        ],
+        "type": "collection"
+    }
+}

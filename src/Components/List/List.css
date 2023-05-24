@@ -1,0 +1,23 @@
+/* .listToolbar {
+  display: box;
+  justify-content: "flex-end";
+  padding-right: 0;
+}
+
+.listTable {
+  min-width: 650;
+}
+
+.listTableRow {
+  "& button": {
+    visibility: "hidden";
+  }
+  ,
+    "&:hover button": {
+    visibility: "visible";
+  }
+  ,
+    "&:hover": {
+    backgroundcolor: theme.palette.action.hover;
+  }
+} */
